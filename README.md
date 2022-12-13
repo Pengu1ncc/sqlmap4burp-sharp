@@ -2,7 +2,7 @@
 ## 0x01 插件简介
 sqlmap4burp#是在[sqlmap4burp++](https://github.com/c0ny1/sqlmap4burp-plus-plus)的基础上进行优化，拥有原项目可以实现跨平台联动Burpsuite与sqlmap的优点，新增加了在macOS上对于iTerm2的支持。
 
-![优化ui](img/sqlmap4burp#ui.png)
+![优化ui](https://github.com/Pengu1ncc/sqlmap4burp-sharp/blob/main/img/sqlmap4burp%23ui.png)
 
 ## 0x02 插件编译
 
