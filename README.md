@@ -15,13 +15,13 @@ mvn package
 在sqlmap4burp++作者的开发思路上，增加了以下代码，以实现插件支持ITerm2
 
 ```java
-                        cmds.add("osascript");
-                        cmds.add("-e");
-                        String cmd = "tell application \"iTerm\" \n" +
-                                "create window with default profile\n" +
-                                "tell current session of current window to write text \"%s\"\n" +
-                                "end tell";
-                        cmds.add(String.format(cmd, command));
+cmds.add("osascript");
+cmds.add("-e");
+String cmd = "tell application \"iTerm\" \n" +
+"create window with default profile\n" +
+"tell current session of current window to write text \"%s\"\n" +
+"end tell";
+cmds.add(String.format(cmd, command));
 ```
 
 在开发过程中，原目的是想实现对macOS上多种终端工具的支持，但在测试中发现大多数的终端工具都不支持`AppleScript`语法，如果大家有更好的实现方法，欢迎提交建议，我会更新插件。
