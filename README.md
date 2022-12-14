@@ -1,6 +1,6 @@
 # sqlmap4burp#
 ## 0x01 插件简介
-sqlmap4burp#是在[sqlmap4burp++](https://github.com/c0ny1/sqlmap4burp-plus-plus)的基础上进行优化，拥有原项目可以实现跨平台联动Burpsuite与sqlmap的优点，新增加了在macOS上对于iTerm2的支持。
+sqlmap4burp#是在[sqlmap4burp++](https://github.com/c0ny1/sqlmap4burp-plus-plus)的基础上优化，新增了macOS上对于iTerm2的支持。sqlmap4burp++在mac上使用默认打开的终端是Terminal，本人是iTerm2的用户，所以对sqlmap4burp++进行了重构优化，sqlmap4burp#拥有原项目可以实现跨平台联动Burpsuite与sqlmap的特点，并新增了在macOS上对于iTerm2的支持，以提高macOS用户体验。
 
 ![优化ui](https://github.com/Pengu1ncc/sqlmap4burp-sharp/blob/main/img/sqlmap4burp%23ui.png)
 
